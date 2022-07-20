@@ -5,14 +5,18 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tjorw.DistributedMessages", "src\Tjorw.DistributedMessages\Tjorw.DistributedMessages.csproj", "{7DE288BC-FF70-4A89-812F-AFCA182DE40A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tjorw.DistributedMessages.UnitTests", "tests\Tjorw.DistributedMessages.UnitTests\Tjorw.DistributedMessages.UnitTests.csproj", "{F12A06A6-8FA6-4DDE-BDF8-D054DBF4832E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tjorw.DistributedMessages.AzureServiceBus", "Tjorw.DistributedMessages.AzureServiceBus\Tjorw.DistributedMessages.AzureServiceBus.csproj", "{FA1679F4-F838-4081-961C-925DFB4880B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tjorw.DistributedMessages.UnitTests", "tests\Tjorw.DistributedMessages.UnitTests\Tjorw.DistributedMessages.UnitTests.csproj", "{F12A06A6-8FA6-4DDE-BDF8-D054DBF4832E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{95E9F643-0D54-4616-A32B-682023A6C19A}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E5BB3E54-4924-4F10-8E87-EF9621F39732}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7D3994BD-F658-4A88-B507-CCC9EE5D5995}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tjorw.DistributedMessages.AzureServiceBus", "src\Tjorw.DistributedMessages.AzureServiceBus\Tjorw.DistributedMessages.AzureServiceBus.csproj", "{DB10CF0D-D26D-4655-93F4-76EB4551899F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,13 +32,18 @@ Global
 		{F12A06A6-8FA6-4DDE-BDF8-D054DBF4832E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F12A06A6-8FA6-4DDE-BDF8-D054DBF4832E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F12A06A6-8FA6-4DDE-BDF8-D054DBF4832E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA1679F4-F838-4081-961C-925DFB4880B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA1679F4-F838-4081-961C-925DFB4880B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA1679F4-F838-4081-961C-925DFB4880B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA1679F4-F838-4081-961C-925DFB4880B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB10CF0D-D26D-4655-93F4-76EB4551899F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB10CF0D-D26D-4655-93F4-76EB4551899F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB10CF0D-D26D-4655-93F4-76EB4551899F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB10CF0D-D26D-4655-93F4-76EB4551899F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7DE288BC-FF70-4A89-812F-AFCA182DE40A} = {E5BB3E54-4924-4F10-8E87-EF9621F39732}
+		{F12A06A6-8FA6-4DDE-BDF8-D054DBF4832E} = {7D3994BD-F658-4A88-B507-CCC9EE5D5995}
+		{DB10CF0D-D26D-4655-93F4-76EB4551899F} = {E5BB3E54-4924-4F10-8E87-EF9621F39732}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8ABF9385-9409-4AE7-A5CE-4E7A917092EE}
