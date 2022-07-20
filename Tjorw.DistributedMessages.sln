@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tjorw.DistributedMessages", "src\Tjorw.DistributedMessages\Tjorw.DistributedMessages.csproj", "{7DE288BC-FF70-4A89-812F-AFCA182DE40A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tjorw.DistributedMessages.UnitTests", "tests\Tjorw.DistributedMessages.UnitTests\Tjorw.DistributedMessages.UnitTests.csproj", "{F12A06A6-8FA6-4DDE-BDF8-D054DBF4832E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tjorw.DistributedMessages.AzureServiceBus", "Tjorw.DistributedMessages.AzureServiceBus\Tjorw.DistributedMessages.AzureServiceBus.csproj", "{FA1679F4-F838-4081-961C-925DFB4880B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{95E9F643-0D54-4616-A32B-682023A6C19A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DE288BC-FF70-4A89-812F-AFCA182DE40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE288BC-FF70-4A89-812F-AFCA182DE40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE288BC-FF70-4A89-812F-AFCA182DE40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE288BC-FF70-4A89-812F-AFCA182DE40A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F12A06A6-8FA6-4DDE-BDF8-D054DBF4832E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12A06A6-8FA6-4DDE-BDF8-D054DBF4832E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12A06A6-8FA6-4DDE-BDF8-D054DBF4832E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12A06A6-8FA6-4DDE-BDF8-D054DBF4832E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA1679F4-F838-4081-961C-925DFB4880B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1679F4-F838-4081-961C-925DFB4880B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1679F4-F838-4081-961C-925DFB4880B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1679F4-F838-4081-961C-925DFB4880B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8ABF9385-9409-4AE7-A5CE-4E7A917092EE}
+	EndGlobalSection
+EndGlobal
