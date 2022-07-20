@@ -23,8 +23,13 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - name: Publish  
+    - name: Publish DistributedMessages 
       uses: brandedoutcast/publish-nuget@v2.5.2  
       with:   
        PROJECT_FILE_PATH: src/Tjorw.DistributedMessages/Tjorw.DistributedMessages.csproj  
+       NUGET_KEY: ${{secrets.NUGET_API_KEY}} 
+    - name: Publish DistributedMessages 
+      uses: brandedoutcast/publish-nuget@v2.5.2  
+      with:   
+       PROJECT_FILE_PATH: src/Tjorw.DistributedMessages.AzureServiceBus/Tjorw.DistributedMessages.AzureServiceBus.csproj  
        NUGET_KEY: ${{secrets.NUGET_API_KEY}} 
